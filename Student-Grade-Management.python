@@ -1,7 +1,8 @@
+l=[]
 students={}
 num_students=int(input("Enter no. of students: "))
 for i in range(1,num_students+1):
-    name=input(f"Enter name of student {i}: ")
+    name=input(f"Enter name of student {i}: ").title()
     g1=int(input("Enter marks in maths: "))
     g2=int(input("Enter marks in science: "))
     g3=int(input("Enter marks in english: "))
@@ -21,5 +22,7 @@ for i in range(1,num_students+1):
         Grade='C'
     else:
         Grade='Fail'
-    students[f'{name}']={'Maths':g1,'Science':g2,'English':g3,'Average':average,'Grade':Grade}
+    students[name]={'Maths':g1,'Science':g2,'English':g3,'Average':average,'Grade':Grade}
+l.append(students)
 print(students)
+print(l)
