@@ -1,0 +1,25 @@
+students={}
+num_students=int(input("Enter no. of students: "))
+for i in range(1,num_students+1):
+    name=input(f"Enter name of student {i}: ")
+    g1=int(input("Enter marks in maths: "))
+    g2=int(input("Enter marks in science: "))
+    g3=int(input("Enter marks in english: "))
+    total=g1+g2+g3
+    average=total/3
+    if(average>=90):
+        Grade='A+'
+    elif(average>=80):
+        Grade='A'
+    elif(average>=70):
+        Grade='B+'
+    elif(average>=60):
+        Grade='B'
+    elif(average>=50):
+        Grade='C+'
+    elif(average>=40):
+        Grade='C'
+    else:
+        Grade='Fail'
+    students[f'{name}']={'Maths':g1,'Science':g2,'English':g3,'Average':average,'Grade':Grade}
+print(students)
