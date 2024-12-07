@@ -15,4 +15,4 @@ RESULT: Simplifies the process of managing student grades and academic data.
         Improves efficiency by storing data in a structured way, reducing the risk of human errors.
         The system will streamline the grading process, making it easier for educators to focus on other aspects of teaching while keeping track of students academic progress efficiently.
 
-Link: https://github.com/Tanya030598/Student-Grade-Management
+Link: https://github.com/Tanya030598/Student-Grade-Management/blob/main/Student-Grade-Management.python
